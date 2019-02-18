@@ -17,8 +17,9 @@ body {
 }
 
 .title {
-	font-family: "Arca Majora 3";
-	font-size: 70px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 40px;
 	margin: 0px;
 	padding: 0px;
 	display:inline-block;
@@ -50,15 +51,17 @@ body {
 
 #intro {
 	margin-top: 75px;
-	font-family: "Arca Majora 3";
-	font-size: 35px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 20px;
 	color:#6E6E6E;
 }
 
 .info {
 	margin-top: 0px;
-	font-family: "Arca Majora 3";
-	font-size: 35px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 18px;
 	color:#404040;
 	display: block;
 	margin-bottom: 0px;
@@ -77,7 +80,15 @@ body {
 }
 
 .experience {
-	position: relative;
+}
+
+.container {
+	display: inline-block;
+	width: 47%;
+}
+
+#right {
+	float: right;
 }
 
 .brain {
@@ -118,7 +129,8 @@ button:focus {
 }
 
 .caption {
-	font-family: "Arca Majora 3";
+	font-family: "Avenir";
+	font-weight: lighter;
 	font-size: 16px;
 	color:#404040;
 	display: inline-block;
@@ -128,7 +140,8 @@ button:focus {
 }
 
 .details {
-	font-family: "Arca Majora 3";
+	font-family: "Avenir";
+	font-weight: lighter;
 	color:#6E6E6E;
 	font-size: 15px;
 	margin-top: 3px;
@@ -183,13 +196,6 @@ button:focus {
 	height: 80px;
 }
 
-@media only screen and (max-width:1300px) {
-  /* For mobile phones: */
-  .content {
-    margin-left: 15%;
-	margin-right: 15%;
-  }
-}
 
 @media only screen and (max-width:700px) {
   /* For mobile phones: */
@@ -235,16 +241,20 @@ button:focus {
 
 .title-small {
 	margin-top: 0px;
-	font-family: "Arca Majora 3";
-	font-size: 40px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 20px;
+	letter-spacing: 1.5px;
 	color:#404040;
 	display: block;
 	margin-bottom: 0px;
 }
 
 .bar {
-	font-family: "Arca Majora 3";
-	font-size: 20px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+	font-size: 18px;
 	color:#B2B2B2;
 	display: inline-block;
 	float: right;
@@ -263,7 +273,8 @@ a:hover {
 }
 
 #contact {
-	font-family: "Arca Majora 3";
+	font-family: "Avenir";
+	font-weight: lighter;
 	font-size: 16px;
 	color:#B2B2B2;
 }
