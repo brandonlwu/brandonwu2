@@ -1,7 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
-@charset "UTF-8";
 /* CSS Document */
 
 @font-face { 
@@ -20,7 +18,6 @@ a{
 	text-decoration:none;
 	-webkit-transition: color 1s;
 	transition: color 1s;
-	margin: 0px;
 }
 
 
@@ -29,10 +26,10 @@ a{
 	margin-right: 20%;
 }
 
-
 .title {
-	font-family: "Arca Majora 3";
-	font-size: 70px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 40px;
 	margin: 0px;
 	padding: 0px;
 	display:inline-block;
@@ -74,12 +71,40 @@ a{
 
 
 .title-small {
-	font-family: "Arca Majora 3";
-	font-size: 50px;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 20px;
 	margin: 0px;
 	color:#BFBFBF;
 	text-decoration: none;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+@media only screen and (max-width:700px) {
+  /* For mobile phones: */
+  .content {
+    margin-left: 5%;
+	margin-right: 5%;
+  }
+	.caption {
+		text-align: left;
+	}
+}
+
+@media (max-width:1150px) { 
+	.display{
+		float:left;
+	}
+	
+	.bar {
+		float: left;
+	}
+}
+
+.space {
+	height: 50px;
+	clear: both;
 }
