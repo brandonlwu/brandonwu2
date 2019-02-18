@@ -28,8 +28,8 @@ a{
 
 
 .title {
-	font-family: "Arca Majora 3";
-	font-size: 70px;
+	font-family: "Avenir";
+	font-weight: lighter;	font-size: 40px;
 	margin: 0px;
 	padding: 0px;
 	display:inline-block;
@@ -85,7 +85,8 @@ a{
 }
 
 .title-small {
-	font-family: "Arca Majora 3";
+	font-family: "Avenir";
+	font-weight: lighter;
 	font-size: 50px;
 	margin: 0px;
 	color:#BFBFBF;
@@ -126,7 +127,8 @@ button:focus {
 }
 
 .caption {
-	font-family: "Arca Majora 3";
+	font-family: "Avenir";
+	font-weight: lighter;
 	font-size: 30px;
 	margin: 0px;
 	color:#BFBFBF;
