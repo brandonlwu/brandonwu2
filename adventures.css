@@ -87,7 +87,7 @@ a{
 .title-small {
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 50px;
+	font-size: 40px;
 	margin: 0px;
 	color:#BFBFBF;
 	text-decoration: none;
@@ -118,6 +118,7 @@ button {
 button:focus {
 	outline: none;
 }
+/*
 
 #shark {
 	display: block;
@@ -125,6 +126,8 @@ button:focus {
 	margin-right: auto;
 	width: 100%;
 }
+*/
+
 
 .caption {
 	font-family: "Avenir";
@@ -159,3 +162,47 @@ button:focus {
 #sights:hover {
 	color: #ff6666;
 }
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 23%; /* IE10 */
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+.column video {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
