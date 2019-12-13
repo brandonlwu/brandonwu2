@@ -2,11 +2,6 @@
 /* CSS Document */
 /* CSS Document */
 
-@font-face { 
-	font-family: "Arca Majora 3"; 
-	src: url('ArcaMajora3-Bold.otf'); 
-} 
-
 body {
 	margin: 0;
 	padding: 0;
@@ -14,7 +9,7 @@ body {
 }
 
 a{
-	color:#B2B2B2;
+	color:#404040;
 	text-decoration:none;
 	-webkit-transition: color 1s;
 	transition: color 1s;
@@ -29,7 +24,7 @@ a{
 .title {
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 40px;
+	font-size: 30px;
 	margin: 0px;
 	padding: 0px;
 	display:inline-block;
@@ -39,7 +34,7 @@ a{
 		
 		#FDC830,#F37335,#FDC830
     );
-	color:#B2B2B2;
+	color:#404040;
 	-webkit-background-clip: text;
 /*
 	-webkit-transition: color 1s;
@@ -65,7 +60,7 @@ a{
 }
 
 .space-small {
-	height: 40px;
+	height: 30px;
 	clear: both;
 }
 
@@ -75,7 +70,7 @@ a{
 	font-weight: lighter;
 	font-size: 20px;
 	margin: 0px;
-	color:#BFBFBF;
+	color:#404040;
 	text-decoration: none;
 	display: block;
 	margin-left: auto;
