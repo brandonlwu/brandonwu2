@@ -4,6 +4,10 @@ body {
 	padding: 0;
 	
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 
 .content {
 	margin-left: 20%;
@@ -13,7 +17,7 @@ body {
 .title {
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 40px;
+	font-size: 30px;
 	margin: 0px;
 	padding: 0px;
 	display:inline-block;
@@ -23,7 +27,7 @@ body {
 		#f05053,
 		#e1eec3
     );
-	color:#B2B2B2;
+	color:#404040;
 	-webkit-background-clip: text;
 /*
 	-webkit-transition: color 1s;
@@ -44,25 +48,30 @@ body {
 }
 
 #intro {
-	margin-top: 75px;
+	margin-top: 50px;
 	font-family: "Avenir";
 	font-weight: lighter;
 	font-size: 20px;
-	color:#6E6E6E;
+	color:#404040;
+}
+#top {
+	display: block;
+	width: 100%;
+	height: 50px;
 }
 
 .info {
 	margin-top: 0px;
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 18px;
+	font-size: 15px;
 	color:#404040;
 	display: block;
 	margin-bottom: 0px;
 }
 
-#junior {
-	color:#BFBFBF;
+#senior {
+	color:#404040;
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
 	text-decoration: none;
@@ -85,30 +94,6 @@ body {
 	float: right;
 }
 
-.brain {
-	color:#BFBFBF;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-	text-decoration: none;
-	
-}
-
-button {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0!important;
-	font: inherit;
-	cursor: pointer;
-}
-
-button:focus {
-	outline: none;
-}
-
-.brain:hover {
-	color: #6699ff;
-}
 
 .text {
 	position: relative;
@@ -125,7 +110,7 @@ button:focus {
 .caption {
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 16px;
+	font-size: 15px;
 	color:#404040;
 	display: inline-block;
 	width: 320px;
@@ -143,54 +128,6 @@ button:focus {
 	
 }
 
-#hierarchy {
-	color:#BFBFBF;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-	text-decoration: none;
-}
-
-#hierarchy:hover {
-	color: #ff4d4d;
-}
-
-#sbusiness {
-	margin-top: none;
-	height: 100px;
-}
-
-
-#class {
-	color:#BFBFBF;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-	text-decoration: none;
-}
-
-#class:hover {
-	color: #cc3399;
-}
-
-#council {
-	height: 120px;
-}
-
-#kast {
-	color:#BFBFBF;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-	text-decoration: none;
-}
-
-#kast:hover {
-	color: #ffc34d;
-}
-
-#kastimg {
-	height: 80px;
-}
-
-
 #adapspace {
 	height: 0;
 	display: inline;
@@ -207,11 +144,6 @@ button:focus {
 	video {
 		width: 85%;
 		height: 85%;
-	}
-	
-	#kastimg {
-		width: 90%;
-		height: 90%;
 	}
 	
 	.caption {
@@ -239,12 +171,12 @@ button:focus {
 }
 
 .space {
-	height: 50px;
+	height: 30px;
 	clear: both;
 }
 
 .space-small {
-	height: 40px;
+	height: 30px;
 	clear: both;
 }
 
@@ -259,42 +191,54 @@ button:focus {
 	margin-bottom: 0px;
 }
 
-.bar {
-	font-family: "Avenir";
-	font-weight: lighter;
-	letter-spacing: 1.5px;
-	font-size: 18px;
-	color:#B2B2B2;
+#tab-container {
 	display: inline-block;
 	float: right;
 	margin: 0px;
-	margin-top: 20px;
-}
-a{
-	color:#B2B2B2;
-	text-decoration:none;
-	-webkit-transition: color 1s;
-	transition: color 1s;
+	margin-right: 20px;
+	
 }
 
-a:hover {
-	color:#6666ff;
+.tab {
+	font-family: "Avenir";
+	color: #404040;
+	font-size: 20px;
+	font-weight: lighter;
+	margin: 0px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+	line-height: 30px;
+	list-style: none;
 }
+
+.tab:before {
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+ 	bottom: 0;
+  	left: 0;
+  	background-color: #404040;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+.tab:hover:before {
+	visibility: visible;
+  	-webkit-transform: scaleX(1);
+ 	transform: scaleX(1);
+}
+
+
 
 #contact {
 	font-family: "Avenir";
 	font-weight: lighter;
-	font-size: 16px;
-	color:#B2B2B2;
-}
-
-#illusion {
-	color: #B2B2B2;
-	-webkit-transition: color 1s;
-	transition: color 1s;
-}
-
-
-#illusion:hover {
-	color: #ffffff;
+	font-size: 15px;
+	color:#404040;
 }
