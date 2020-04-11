@@ -10,7 +10,6 @@ body {
 
 a{
 	color:#404040;
-	text-decoration:none;
 	-webkit-transition: color 1s;
 	transition: color 1s;
 }
